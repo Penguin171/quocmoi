@@ -1,0 +1,40 @@
+# Keil uVision build outputs & user-specific workspace files
+Objects/
+Listings/
+DebugConfig/
+*.axf
+*.o
+*.d
+*.crf
+*.htm
+*.build_log.htm
+*.lnp
+*.sct
+*.dep
+*.lst
+*.map
+*.iex
+*.__i
+*._ia
+*.bak
+*.uvguix.*
+*.uvoptx
+*.scvd
+
+# Ignore newly built .hex files outside firmware/releases/
+*.hex
+!firmware/releases/*.hex
+
+# Proteus backups & machine-specific workspace files
+Project Backups/
+*.workspace
+*.pdsbak
+*.DBK
+Last Loaded *.pdsprj
+
+# OS & editor files
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+*.log
